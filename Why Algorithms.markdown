@@ -12,15 +12,15 @@
 
 Это сделает вас лучшим разработчиком! (А лучшие разработчики зарабатывают больше $$$.)
 
-#### Algorithms lets you build software you couldn't otherwise build
+#### Алгоритмы позволяют создавать программное обеспечение, которое иначе было бы невозможно создать
 
-There have been apps that I've been unable to create in the past because I got stuck on fundamental issues.
+Были приложения, которые я не мог создать в прошлом, потому что застрял на фундаментальных проблемах.
 
-Often it was a matter of speed: I just couldn't make the program go fast enough. Thinking back on this now, I had chosen the wrong algorithms for these problems. If I had known more about the difference between **O(n)** and **O(n^2)**, then maybe I would have had better luck.
+Часто это был вопрос скорости: я просто не мог заставить программу работать достаточно быстро. Вспоминая об этом сейчас, я выбрал неправильные алгоритмы для этих задач. Если бы я знал больше о разнице между **O(n)** и **O(n^2)**, возможно, мне повезло бы больше.
 
-Naive brute-force solutions work fine for small amounts of data, but sometimes you need to deal with lots of data. And then you need smarter algorithms.
+Наивные решения грубой силы прекрасно работают с небольшими объемами данных, но иногда вам нужно иметь дело с большим количеством данных. И тогда вам нужны более умные алгоритмы.
 
-There were also times I wasn't able to solve my programming problems at all, not even slowly. I simply didn't know where to begin. Understanding a bit of algorithm theory gives you various tactics you can try.
+Были также времена, когда я вообще не мог решить свои проблемы с программированием, даже медленно. Я просто не знал, с чего начать. Понимание теории алгоритмов дает вам различные тактики, которые вы можете попробовать.
 
 #### Don't spend any time memorizing algorithms
 
