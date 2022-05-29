@@ -18,17 +18,17 @@
 **O(n!)** | факториал | **Невыносимо медленно.** На то, чтобы что-то сделать, уходит буквально миллион лет.
 
 
-Below are some examples for each category of performance:
+Ниже приведены несколько примеров для каждой категории производительности:
 
 **O(1)**
 
-  The most common example with O(1) complexity is accessing an array index.
+  Самый распространенный пример со сложностью O(1) — доступ к индексу массива.
 
   ```swift
   let value = array[5]
   ```
 
-  Another example of O(1) is pushing and popping from Stack.
+  Другой пример O(1) — отправка и извлечение из стека.
 
 
 **O(log n)**
@@ -36,14 +36,14 @@ Below are some examples for each category of performance:
   ```swift
   var j = 1
   while j < n {
-    // do constant time stuff
+    // постоянное время
     j *= 2
   }
   ```  
 
-  Instead of simply incrementing, 'j' is increased by 2 times itself in each run.
+  Вместо простого увеличения 'j' увеличивается в 2 раза при каждом запуске.
 
-  Binary Search Algorithm is an example of O(log n) complexity.
+  Алгоритм бинарного поиска является примером сложности O (log n).
 
 
 **O(n)**
@@ -54,7 +54,7 @@ Below are some examples for each category of performance:
   }
   ```
 
-  Array Traversal and Linear Search are examples of O(n) complexity.  
+  Обход массива и линейный поиск являются примерами сложности O(n).
 
 
 **O(n log n)**
@@ -64,12 +64,12 @@ Below are some examples for each category of performance:
   var j = 1
     while j < n {
       j *= 2
-      // do constant time stuff
+      // постоянное время
     }
   }
   ```
 
-  OR
+  ИЛИ
 
   ```swift
   for i in stride(from: 0, to: n, by: 1) {
@@ -77,12 +77,12 @@ Below are some examples for each category of performance:
       return i < n ? i * 2 : nil
     }
     for j in sequence(first: 1, next: index(after:)) {
-      // do constant time stuff
+      // постоянное время
     }
   }
   ```
 
-  Merge Sort and Heap Sort are examples of O(n log n) complexity.  
+  Сортировка слиянием и сортировка кучей являются примерами сложности O (n log n).
 
 
 **O(n^2)**
@@ -95,7 +95,7 @@ Below are some examples for each category of performance:
   }
   ```
 
-  Traversing a simple 2-D array and Bubble Sort are examples of O(n^2) complexity.
+  Обход простого двумерного массива и пузырьковая сортировка являются примерами сложности O(n^2).
 
 
 **O(n^3)**
@@ -104,7 +104,7 @@ Below are some examples for each category of performance:
   for i in stride(from: 0, to: n, by: 1) {
     for j in stride(from: 1, to: n, by: 1) {
       for k in stride(from: 1, to: n, by: 1) {
-        // do constant time stuff
+        // постоянное время
       }
     }
   }
@@ -112,9 +112,9 @@ Below are some examples for each category of performance:
 
 **O(2^n)**
 
-  Algorithms with running time O(2^N) are often recursive algorithms that solve a problem of size N by recursively solving two smaller problems of size N-1.
-  The following example prints all the moves necessary to solve the famous "Towers of Hanoi" problem for N disks.
-
+  Алгоритмы со временем выполнения O(2^n) часто являются рекурсивными алгоритмами, которые решают задачу размера n путем рекурсивного решения двух меньших задач размера n-1.
+  В следующем примере выводятся все ходы, необходимые для решения знаменитой задачи «Ханойские башни» для n дисков.
+  
   ```swift
   func solveHanoi(n: Int, from: String, to: String, spare: String) {
     guard n >= 1 else { return }
@@ -129,7 +129,7 @@ Below are some examples for each category of performance:
 
 **O(n!)**
 
-  The most trivial example of function that takes O(n!) time is given below.
+  Самый тривиальный пример функции, которая занимает O(n!) времени, приведен ниже.
 
   ```swift
   func nFacFunc(n: Int) {
@@ -139,8 +139,8 @@ Below are some examples for each category of performance:
   }
   ```
 
-Often you don't need math to figure out what the Big-O of an algorithm is but you can simply use your intuition. If your code uses a single loop that looks at all **n** elements of your input, the algorithm is **O(n)**. If the code has two nested loops, it is **O(n^2)**. Three nested loops gives **O(n^3)**, and so on.
+Часто вам не нужна математика, чтобы понять, что такое Big-O алгоритма, но вы можете просто использовать свою интуицию. Если ваш код использует один цикл, который просматривает все **n** элементы вашего ввода, алгоритм будет **O(n)**. Если код имеет два вложенных цикла, это **O(n^2)**. Три вложенных цикла дают **O(n^3)** и так далее.
 
-Note that Big-O notation is an estimate and is only really useful for large values of **n**. For example, the worst-case running time for the [insertion sort](Insertion%20Sort/) algorithm is **O(n^2)**. In theory that is worse than the running time for [merge sort](Merge%20Sort/), which is **O(n log n)**. But for small amounts of data, insertion sort is actually faster, especially if the array is partially sorted already!
+Обратите внимание, что нотация Big-O является оценочной и действительно полезна только для больших значений **n**. Например, время выполнения алгоритма [сортировка вставками](Insertion%20Sort/) в наихудшем случае составляет **O(n^2)**. Теоретически это хуже, чем время выполнения для [сортировки слиянием](Merge%20Sort/), которое составляет **O(n log n)**. Но для небольших объемов данных сортировка вставками выполняется быстрее, особенно если массив уже частично отсортирован!
 
-If you find this confusing, don't let this Big-O stuff bother you too much. It's mostly useful when comparing two algorithms to figure out which one is better. But in the end you still want to test in practice which one really is the best. And if the amount of data is relatively small, then even a slow algorithm will be fast enough for 
+Если вы находите это запутанным, не позволяйте этому Big-O сильно беспокоить вас. В основном это полезно при сравнении двух алгоритмов, чтобы выяснить, какой из них лучше. Но в итоге все же хочется проверить на практике, какой из них действительно лучший. А если объем данных относительно невелик, то даже медленный алгоритм будет достаточно быстр для
