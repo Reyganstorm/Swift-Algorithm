@@ -1,16 +1,16 @@
-# Why learn algorithms and data structures?
+# Зачем изучать алгоритмы и структуры данных?
 
-If you've been coding for while you may wonder what the point is of learning about algorithms and data structures, especially if you don't have a formal computer science or engineering background.
+Если вы занимаетесь программированием какое-то время, вы можете задаться вопросом, какой смысл изучать алгоритмы и структуры данных, особенно если у вас нет формального образования в области информатики или инженерии.
 
-After all, how often do you actually have to use a linked list or write your own sort routine when you're making apps? The answer is: almost never.
+В конце концов, как часто вам на самом деле приходится использовать связанный список или писать собственную процедуру сортировки при создании приложений? Ответ: почти никогда.
 
-#### **However...**
+#### **Однако...**
 
-Knowing a little bit about the strategies used by algorithms to solve tricky problems gives you ideas for improvements you can make to your own code.
+Небольшие знания о стратегиях, используемых алгоритмами для решения сложных задач, дадут вам идеи для улучшения, которые вы можете внести в свой собственный код.
 
-Knowing more data structures than just the standard array and dictionary gives you a bigger collection of tools you can use to build your own apps.
+Знание большего количества структур данных, чем просто стандартный массив и словарь, дает вам большую коллекцию инструментов, которые вы можете использовать для создания собственных приложений.
 
-It will make you a better developer! (And better developers make more $$$.)
+Это сделает вас лучшим разработчиком! (А лучшие разработчики зарабатывают больше $$$.)
 
 #### Algorithms lets you build software you couldn't otherwise build
 
