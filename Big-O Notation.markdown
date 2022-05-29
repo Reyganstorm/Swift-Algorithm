@@ -8,14 +8,14 @@
 
 Big-O | Name | Description
 ------| ---- | -----------
-**O(1)** | constant | **This is the best.** The algorithm always takes the same amount of time, regardless of how much data there is. Example: looking up an element of an array by its index.
-**O(log n)** | logarithmic | **Pretty great.** These kinds of algorithms halve the amount of data with each iteration. If you have 100 items, it takes about 7 steps to find the answer. With 1,000 items, it takes 10 steps. And 1,000,000 items only take 20 steps. This is super fast even for large amounts of data. Example: binary search.
-**O(n)** | linear | **Good performance.** If you have 100 items, this does 100 units of work. Doubling the number of items makes the algorithm take exactly twice as long (200 units of work). Example: sequential search.
-**O(n log n)** | "linearithmic" | **Decent performance.** This is slightly worse than linear but not too bad. Example: the fastest general-purpose sorting algorithms.
-**O(n^2)** | quadratic | **Kinda slow.** If you have 100 items, this does 100^2 = 10,000 units of work. Doubling the number of items makes it four times slower (because 2 squared equals 4). Example: algorithms using nested loops, such as insertion sort.
-**O(n^3)** | cubic | **Poor performance.** If you have 100 items, this does 100^3 = 1,000,000 units of work. Doubling the input size makes it eight times slower. Example: matrix multiplication.
-**O(2^n)** | exponential | **Very poor performance.** You want to avoid these kinds of algorithms, but sometimes you have no choice. Adding just one bit to the input doubles the running time. Example: traveling salesperson problem.
-**O(n!)** | factorial | **Intolerably slow.** It literally takes a million years to do anything.  
+**O(1)** | константный | **Это лучший вариант.** Алгоритм всегда занимает одинаковое количество времени, независимо от объема данных. Пример: поиск элемента массива по его индексу.
+**O(log n)** | логарифмический | **Отлично.** Подобные алгоритмы уменьшают вдвое объем данных с каждой итерацией. Если у вас есть 100 элементов, для поиска ответа требуется около 7 шагов. Для 1000 элементов требуется 10 шагов. А для 1 000 000 элементов требуется всего 20 шагов. Это очень быстро даже для больших объемов данных. Пример: бинарный поиск.
+**O(n)** | линейный | **Хорошая производительность.** Если у вас есть 100 элементов, это выполняет 100 единиц работы. Удвоение количества элементов приводит к тому, что алгоритм занимает ровно вдвое больше времени (200 единиц работы). Пример: последовательный поиск.
+**O(n log n)** | "линеарифмический" | **Достойная производительность.** Это немного хуже, чем линейное, но не так уж плохо. Пример: самые быстрые алгоритмы сортировки общего назначения.
+**O(n^2)** | квадратичный | **Довольно медленно.** Если у вас есть 100 элементов, это означает 100^2 = 10 000 единиц работы. Удвоение количества элементов делает его в четыре раза медленнее (потому что 2 в квадрате равно 4). Пример: алгоритмы, использующие вложенные циклы, такие как сортировка вставками.
+**O(n^3)** | кубический | **Низкая производительность.** Если у вас есть 100 элементов, 100^3 = 1 000 000 единиц работы. Удвоение размера ввода делает его в восемь раз медленнее. Пример: умножение матриц.
+**O(2^n)** | экспоненциальный | **Очень низкая производительность.** Вы хотите избежать таких алгоритмов, но иногда у вас нет выбора. Добавление всего одного бита ко входу удваивает время работы. Пример: задача коммивояжера.
+**O(n!)** | факториал | **Невыносимо медленно.** На то, чтобы что-то сделать, уходит буквально миллион лет.
 
 
 Below are some examples for each category of performance:
