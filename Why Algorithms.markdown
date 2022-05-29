@@ -22,16 +22,16 @@
 
 Были также времена, когда я вообще не мог решить свои проблемы с программированием, даже медленно. Я просто не знал, с чего начать. Понимание теории алгоритмов дает вам различные тактики, которые вы можете попробовать.
 
-#### Don't spend any time memorizing algorithms
+#### Не тратьте время на заучивание алгоритмов
 
-That's not the point. Instead, try to understand how different algorithms approach different problems.
+Не в этом дело. Вместо этого попытайтесь понять, как разные алгоритмы подходят к разным задачам.
 
-Learn about techniques such as divide-and-conquer, dynamic programming, greedy algorithms. See what makes one approach slow and another fast, and learn what the tradeoffs are.
+Узнайте о таких методах, как разделяй и властвуй, динамическое программирование, жадные алгоритмы. Посмотрите, что делает один подход медленным, а другой быстрым, и узнайте, каковы компромиссы.
 
-The key thing here is to get insight in how we can make computers do things.
+Ключевым моментом здесь является понимание того, как мы можем заставить компьютеры что-то делать.
 
-#### It's not as scary as it sounds
+#### Все не так страшно, как кажется
 
-A lot of algorithm textbooks start with a bunch of math. Truth is, the math is useful but most of the time you won't need it. So don't let that scare you. If you can write code, you can also understand all these fancy algorithms and data structures.
+Многие учебники по алгоритмам начинаются с кучи математики. По правде говоря, математика полезна, но в большинстве случаев она вам не понадобится. Так что пусть это вас не пугает. Если вы умеете писать код, вы также можете понять все эти причудливые алгоритмы и структуры данных.
 
-Trust me, algorithms are fun. :-)
+Поверьте мне, алгоритмы — это весело. :-)
