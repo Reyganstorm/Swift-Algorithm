@@ -18,7 +18,7 @@
 
 [Что такое алгоритмы и структуры данных?](What%20are%20Algorithms.markdown) Блинчики!
 
-[Why learn algorithms?](Why%20Algorithms.markdown) Worried this isn't your cup of tea? Then read this.
+[Зачем изучать алгоритмы?](Why%20Algorithms.markdown) Беспокоитесь, что они вам не по душе? Тогда прочитайте это.
 
 [Big-O notation](Big-O%20Notation.markdown). We often say things like, "This algorithm is **O(n)**." If you don't know what that means, read this first.
 
