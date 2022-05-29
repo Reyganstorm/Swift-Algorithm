@@ -1,3 +1,5 @@
+# Проект в активной разработке
+
 # Добро пожаловать в Клуб Алгоритмов на Swift!
 
 Данный репозиторий является [копией - переводом](https://github.com/artkirillov/swift-algorithm-club) с личными дополнениями.
@@ -15,3 +17,11 @@
 ## Важные ссылки
 
 [Что такое алгоритмы и структуры данных?](What%20are%20Algorithms.markdown) Блинчики!
+
+[Why learn algorithms?](Why%20Algorithms.markdown) Worried this isn't your cup of tea? Then read this.
+
+[Big-O notation](Big-O%20Notation.markdown). We often say things like, "This algorithm is **O(n)**." If you don't know what that means, read this first.
+
+[Algorithm design techniques](Algorithm%20Design.markdown). How do you create your own algorithms?
+
+[How to contribute](https://github.com/raywenderlich/swift-algorithm-club/blob/master/.github/CONTRIBUTING.md). Report an issue to leave feedback, or submit a pull request.
