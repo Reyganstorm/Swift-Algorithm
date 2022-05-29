@@ -14,4 +14,4 @@
 
 ## Важные ссылки
 
-[What are algorithms and data structures?](What%20are%20Algorithms.markdown) Pancakes!
+[Что такое алгоритмы и структуры данных?](What%20are%20Algorithms.markdown) Блинчики!
