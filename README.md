@@ -20,7 +20,7 @@
 
 [Зачем изучать алгоритмы?](Why%20Algorithms.markdown) Беспокоитесь, что они вам не по душе? Тогда прочитайте это.
 
-[Big-O notation](Big-O%20Notation.markdown). We often say things like, "This algorithm is **O(n)**." If you don't know what that means, read this first.
+[О-нотация](Big-O%20Notation.markdown). Мы часто говором, "Этот алгоритм **O(n)**." Если вы не понимаете, что это означает. Тогда прочитайте это первым делом.
 
 [Algorithm design techniques](Algorithm%20Design.markdown). How do you create your own algorithms?
 
