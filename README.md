@@ -24,4 +24,4 @@
 
 [Методы разработки Алгоритмов](Algorithm%20Design.markdown). Как вы создаете свои собственные Алгоритмы?
 
-[How to contribute](https://github.com/raywenderlich/swift-algorithm-club/blob/master/.github/CONTRIBUTING.md). Report an issue to leave feedback, or submit a pull request.
+[Как внести свой вклад.](https://github.com/Reyganstorm/Swift-Algorithm/blob/main/.github/CONTRIBUTING.md). Сообщите о проблеме, чтобы оставить отзыв, или отправьте запрос на вытягивание.
