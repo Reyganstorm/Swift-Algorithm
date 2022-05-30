@@ -22,6 +22,6 @@
 
 [О-нотация](Big-O%20Notation.markdown). Мы часто говором, "Этот алгоритм **O(n)**." Если вы не понимаете, что это означает. Тогда прочитайте это первым делом.
 
-[Algorithm design techniques](Algorithm%20Design.markdown). How do you create your own algorithms?
+[Методы разработки Алгоритмов](Algorithm%20Design.markdown). Как вы создаете свои собственные Алгоритмы?
 
 [How to contribute](https://github.com/raywenderlich/swift-algorithm-club/blob/master/.github/CONTRIBUTING.md). Report an issue to leave feedback, or submit a pull request.
