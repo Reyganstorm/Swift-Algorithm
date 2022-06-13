@@ -24,4 +24,14 @@
 
 [Методы разработки Алгоритмов](Algorithm%20Design.markdown). Как вы создаете свои собственные Алгоритмы?
 
-[Как внести свой вклад.](https://github.com/Reyganstorm/Swift-Algorithm/blob/main/.github/CONTRIBUTING.md) Что бы сообщить о проблеме, оставить отзыв, или отправьте запрос на копирование.
+[Как внести свой вклад.](https://github.com/Reyganstorm/Swift-Algorithm/blob/main/.github/CONTRIBUTING.md) Что бы сообщить о проблеме, оставить отзыв, или отправьте запрос на копирование. (ЭТОТ РАЗДЕЛ РЕДАКТИРУЕТСЯ)
+
+
+If you're new to algorithms and data structures, here are a few good ones to start out with:
+
+- [Stack](Stack/)
+- [Queue](Queue/)
+- [Insertion Sort](Insertion%20Sort/)
+- [Binary Search](Binary%20Search/) and [Binary Search Tree](Binary%20Search%20Tree/)
+- [Merge Sort](Merge%20Sort/)
+- [Boyer-Moore string search](Boyer-Moore-Horspool/)
