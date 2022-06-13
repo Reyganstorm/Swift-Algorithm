@@ -26,11 +26,12 @@
 
 [Как внести свой вклад.](https://github.com/Reyganstorm/Swift-Algorithm/blob/main/.github/CONTRIBUTING.md) Что бы сообщить о проблеме, оставить отзыв, или отправьте запрос на копирование. (ЭТОТ РАЗДЕЛ РЕДАКТИРУЕТСЯ)
 
+## С чего начать?
 
-If you're new to algorithms and data structures, here are a few good ones to start out with:
+Если вы только начала изучать алгоритмы и структуры данных, то вот отличные статьи для начала:
 
-- [Stack](Stack/)
-- [Queue](Queue/)
+- [Стек](Stack/)
+- [Очередь](Queue/)
 - [Insertion Sort](Insertion%20Sort/)
 - [Binary Search](Binary%20Search/) and [Binary Search Tree](Binary%20Search%20Tree/)
 - [Merge Sort](Merge%20Sort/)
