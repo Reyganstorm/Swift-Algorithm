@@ -1,45 +1,45 @@
-# Stack
+# Стек
 
 > This topic has been tutorialized [here](https://www.raywenderlich.com/149213/swift-algorithm-club-swift-stack-data-structure)
 A stack is like an array but with limited functionality. You can only *push* to add a new element to the top of the stack, *pop* to remove the element from the top, and *peek* at the top element without popping it off.
 
-Why would you want to do this? Well, in many algorithms you want to add objects to a temporary list at some point and then pull them off this list again at a later time. Often the order in which you add and remove these objects matters.
+Почему вы хотите это сделать? Ну, во многих алгоритмах вы хотите в какой-то момент добавить объекты во временный список, а затем снова извлечь их из этого списка позже. Часто порядок, в котором вы добавляете и удаляете эти объекты, имеет значение.
 
-A stack gives you a LIFO or last-in first-out order. The element you pushed last is the first one to come off with the next pop. (A very similar data structure, the [queue](../Queue/), is FIFO or first-in first-out.)
+Стек дает вам LIFO (англ. last in, first out, «последним пришёл — первым ушёл»). Элемент, который вы нажали последним, оторвется первым со следующим всплывающим окном. (Очень похожая структура данных, [queue](../Queue/), представляет собой FIFO - «первым пришел – первым обслужен».)
 
-For example, let's push a number on the stack:
+Например, давайте добавим число в стек: 
 
 ```swift
 stack.push(10)
 ```
 
-The stack is now `[ 10 ]`. Push the next number:
+Стек теперь `[ 10 ]`. Добавим следующее число:
 
 ```swift
 stack.push(3)
 ```
 
-The stack is now `[ 10, 3 ]`. Push one more number:
+Стек теперь `[ 10, 3 ]`. Добавим еще одно число:
 
 ```swift
 stack.push(57)
 ```
 
-The stack is now `[ 10, 3, 57 ]`. Let's pop the top number off the stack:
+Стек теперь `[ 10, 3, 57 ]`. Теперь давайте извлечем верхнее число из стека:
 
 ```swift
 stack.pop()
 ```
 
-This returns `57`, because that was the most recent number we pushed. The stack is `[ 10, 3 ]` again.
+Оно вернуло `57`, потому что это было самое последнее число, которое мы добавили. Стек `[ 10, 3 ]` снова.
 
 ```swift
 stack.pop()
 ```
 
-This returns `3`, and so on. If the stack is empty, popping returns `nil` or in some implementations it gives an error message ("stack underflow").
+Оно вернуло `3`, и так далее. Если стек будет пустой, *pop* вернет `nil` или в некоторых реализациях выдает сообщение об ошибке ("stack underflow").
 
-A stack is easy to create in Swift. It's just a wrapper around an array that just lets you push, pop, and look at the top element of the stack:
+Стек легко создать в Swift. Это просто обертка вокруг массива, которая позволяет вам помещать, извлекать и просматривать верхний элемент стека:
 
 ```swift
 public struct Stack<T> {
@@ -62,8 +62,9 @@ public struct Stack<T> {
 }
 ```
 
-Notice that a push puts the new element at the end of the array, not the beginning. Inserting at the beginning of an array is expensive, an **O(n)** operation, because it requires all existing array elements to be shifted in memory. Adding at the end is **O(1)**; it always takes the same amount of time, regardless of the size of the array.
+Обратите внимание, что 'push' помещает новый элемент в конец массива, а не в начало. Вставка в начало массива является дорогостоящей операцией **O(n)**, потому что она требует смещения всех существующих элементов массива в памяти. Добавление в конце **O(1)**; это всегда занимает одинаковое количество времени, независимо от размера массива.
 
-Fun fact about stacks: Each time you call a function or a method, the CPU places the return address on a stack. When the function ends, the CPU uses that return address to jump back to the caller. That's why if you call too many functions -- for example in a recursive function that never ends -- you get a so-called "stack overflow" as the CPU stack has run out of space.
 
-*Written for Swift Algorithm Club by Matthijs Hollemans*
+Забавный факт о стеках: каждый раз, когда вы вызываете функцию или метод, CPU помещает адрес возврата в стек. Когда функция завершается, CPU использует этот адрес возврата для возврата к вызывающей программе. Вот почему, если вы вызываете слишком много функций — например, в рекурсивной функции, которая никогда не завершается — вы получаете так называемое «stack overflow», поскольку стек CPU исчерпан.
+
+*Written for Swift Algorithm Club by Matthijs Hollemans и перевел Руслан*
