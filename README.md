@@ -36,3 +36,6 @@
 - [Binary Search](Binary%20Search/) and [Binary Search Tree](Binary%20Search%20Tree/)
 - [Merge Sort](Merge%20Sort/)
 - [Boyer-Moore string search](Boyer-Moore-Horspool/)
+
+
+- ВСЕ ЕЩЕ НАСТРАИВАЕТСЯ
