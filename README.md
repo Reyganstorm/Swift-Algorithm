@@ -25,12 +25,18 @@
 
 Если вы только начала изучать алгоритмы и структуры данных, то вот отличные статьи для начала:
 
+- [Массив](Array/) (Пусто)
+- [Cвязанные списки](Linked%20List/) (Пусто)
 - [Стек](Stack/)
 - [Очередь](Queue/)
-- [Insertion Sort](Insertion%20Sort/)
-- [Binary Search](Binary%20Search/) and [Binary Search Tree](Binary%20Search%20Tree/)
-- [Merge Sort](Merge%20Sort/)
-- [Boyer-Moore string search](Boyer-Moore-Horspool/)
+- [Хеш-таблицы](Hash%20Table/) (Пусто)
+- [Сортировка вставками](Insertion%20Sort/) (Пусто)
+- [Быстрая сортировка](Quicksort/) (Пусто)
+- [Сортировка слиянием](Merge%20Sort/)
+- [Бинарный поиск](Binary%20Search/) and [Binary Search Tree](Binary%20Search%20Tree/) (Пусто)
+- [Boyer-Moore string search](Boyer-Moore-Horspool/) (Пусто)
+- [Рекурсия](Recursion) (пусто)
+
 
 ## The algorithms
 
@@ -38,6 +44,7 @@
 
 - [Линейный поиск](Linear%20Search/). Найти элемент в массиве.
 - [Бинарный поиск](Binary%20Search/). Быстро найти элементы в отсортированном массиве.
+- []
 - [Count Occurrences](Count%20Occurrences/). Count how often a value appears in an array.
 - [Select Minimum / Maximum](Select%20Minimum%20Maximum). Find the minimum/maximum value in an array.
 - [k-th Largest Element](Kth%20Largest%20Element/). Find the *k*-th largest element in an array, such as the median.
