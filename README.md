@@ -185,7 +185,7 @@ Most of the time using just the built-in `Array`, `Dictionary`, and `Set` types 
 ### Graphs
 
 - [Graph](Graph/)
-- [Breadth-First Search (BFS)](Breadth-First%20Search/)
+- [Поиск в ширину](Breadth-First%20Search/) (Breadth-First Search (BFS))
 - [Depth-First Search (DFS)](Depth-First%20Search/)
 - [Shortest Path](Shortest%20Path%20%28Unweighted%29/) on an unweighted tree
 - [Single-Source Shortest Paths](Single-Source%20Shortest%20Paths%20(Weighted)/)
